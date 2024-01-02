@@ -1,0 +1,25 @@
+.navbar {
+    justify-content: center !important;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.me-auto :hover {
+    background-color:antiquewhite !important;
+    color: black !important;
+    border-radius: 7px;
+}
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar-brand :hover {
+    background-color:antiquewhite !important;
+    color: black !important;
+}
+@media (min-height: 1440px) {
+    .navbar {
+        font-size: 2em;
+    }
+    .navbar-brand {
+        font-size: 1.5em !important;
+    }
+}
