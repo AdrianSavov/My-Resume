@@ -1,6 +1,6 @@
 .card {
     width: 18rem;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 .card :hover {
     transform: scale(1.01);
