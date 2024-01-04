@@ -1,7 +1,11 @@
 .main {
   background-size: cover;
   background-position: center;
+  color: antiquewhite;
   max-width: 100%;
   min-height: 100vh;
-  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
 }

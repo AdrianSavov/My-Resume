@@ -142,6 +142,10 @@
     .tab-section {
         font-size: 1.1em;
     }
+    .tab-container {
+        height: fit-content;
+        padding-top: 2em;
+    }
 }
 
 @media (min-height: 1440px) {
@@ -184,5 +188,10 @@
         margin-top: 2em;
     }
 }
+@media (min-height: 1920px) {
+    .tab-container {
+      max-width: fit-content;
+    }
+  }
   
   

@@ -16,7 +16,7 @@ function MyWork() {
               A-Mobile is a web application to manage an online smart devices
               store.
             </Card.Text>
-            <div className="card-btn">
+            <div className="card-btn-container">
               <Button
                 variant="primary"
                 as={Link}
@@ -39,7 +39,7 @@ function MyWork() {
           <Card.Body>
             <Card.Title>Coming Soon...</Card.Title>
             <Card.Text className="card-text-contain">As long as there is more projects, you'll see them listed here.</Card.Text>
-            <div className="card-btn">
+            <div className="card-btn-container">
               <Button variant="primary">GitHub Link</Button>
               <Button variant="primary">Project Link</Button>
             </div>
@@ -52,7 +52,7 @@ function MyWork() {
             <Card.Text className="card-text-contain">
             As long as there is more projects, you'll see them listed here.
             </Card.Text>
-            <div className="card-btn">
+            <div className="card-btn-container">
               <Button
                 variant="primary"
                 as={Link}

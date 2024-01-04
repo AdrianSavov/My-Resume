@@ -13,9 +13,12 @@
     text-align: center;
 }
 .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     text-align: center;
 }
-.card-btn {
+.card-btn-container {
     display: flex;
     justify-content: space-evenly;
 }
@@ -24,7 +27,6 @@
     padding-bottom: 8em;
     display: flex;
     justify-content: space-evenly;
-    margin: 0 auto;
 }
 .card-text {
     height: 5em;
@@ -32,7 +34,7 @@
 
 @media (min-height: 1080px) {
     .card-container {
-        padding-top: 10em;
+        padding-top: 8em;
     }
 }
 @media (min-height: 1440px) {
@@ -46,7 +48,6 @@
         margin: 0 auto;
         height: 9em;
         padding-top: 3em;
-        
     }
 }
 @media (max-width: 768px) {

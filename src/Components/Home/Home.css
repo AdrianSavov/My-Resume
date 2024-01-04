@@ -107,6 +107,12 @@
     .img {
         margin-left: 5em;
     }
+    .main-container {
+        height: fit-content;
+    }
+    .row-content {
+        padding-top: 4em;
+    }
 }
 @media (min-height: 1440px) {
     .header {
