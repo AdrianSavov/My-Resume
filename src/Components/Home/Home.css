@@ -1,0 +1,127 @@
+.summary-text{
+    padding-top: 2em;
+    font-size: 1.5em;
+    opacity: 0.7;
+    max-width: 50%;
+}
+
+.my-picture {
+    padding-top: 5em;
+    padding-bottom: 1em;
+    opacity: 0.7;
+    max-width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.header{
+    padding-top: 1em;
+    text-align: center;
+}
+.summary {
+    text-align: center;
+}
+
+.img {
+    width: 15.5rem;
+    height: 26.5rem;
+    border-radius: 76% 24% 100% 0% / 48% 79% 21% 52%;
+}
+.my-picture :hover {
+    transform: scale(1.1) ;
+}
+
+.main-container {
+    height: 75vh;
+}
+
+.row-content {
+    display: flex;
+    max-width: 70%;
+    margin: 0 auto; 
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        height: fit-content;
+    }
+    .summary-text {
+    height: fit-content;
+    max-width: 90%;
+    margin: 0 auto;
+    }
+    .my-picture {
+        max-width: 90%;
+        padding-top: 1em;
+        margin: 0 auto;
+        display: flex;
+    }
+    .row-content {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+    .img {
+        width: 40%;
+        height: auto;
+        opacity: 0.8;
+        justify-content: center;
+        margin: 0 auto ;
+    }
+    .text {
+        text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+    }
+}
+
+@media (max-height: 768px) {
+    .summary-text,
+    .my-picture {
+        padding-top: 1em;
+        font-size: 20px;
+        opacity: 0.8;
+    }
+
+    .main-container {
+        height: fit-content;
+    }
+    .row-content {
+        max-width: 90%;
+    }
+    .img {
+        opacity: 0.8;
+        margin-left: 6em;
+    }
+
+    .text {
+        text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+    }
+}
+@media (min-height: 1080px) {
+    .img {
+        margin-left: 5em;
+    }
+}
+@media (min-height: 1440px) {
+    .header {
+        font-size: 4em;
+    }
+    .summary {
+        font-size: 2.5em;
+    }
+    .summary-text {
+        font-size: 2em;
+    }
+    .img {
+        width: 22.5rem;
+        height: 36.5rem;
+    }
+}
+
+
