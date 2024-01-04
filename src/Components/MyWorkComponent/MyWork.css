@@ -49,3 +49,11 @@
         
     }
 }
+@media (max-width: 768px) {
+    .card-container {
+        flex-wrap: wrap;
+    }
+    .card {
+        margin-bottom: 2em;
+    }
+}
