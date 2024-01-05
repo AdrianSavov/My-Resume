@@ -87,7 +87,7 @@
   }
   @media (min-width: 1920px) {
     .row-content {
-      padding-top: 5em;
+      padding-top: 2em;
       max-width: 60%;
     }
     .header {
@@ -99,7 +99,7 @@
   }
   @media (min-width: 2560px) {
     .row-content {
-      padding-top: 7em;
+      padding-top: 3em;
       font-size: 1.3em;
     }
     .header {
