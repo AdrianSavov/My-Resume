@@ -15,11 +15,11 @@
     background-color:antiquewhite !important;
     color: black !important;
 }
-@media (min-height: 1080px) {
+@media (min-width: 1920px) {
     .navbar {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
     .navbar-brand {
-        font-size: 1.5em !important;
+        font-size: 1.3em !important;
     }
 }

@@ -1,16 +1,16 @@
 .tab-container {
-    max-width: 38%;
+    max-width: 50%;
     margin: 0 auto;
-    padding-top: 5em;
-    height: 75vh;
+    padding-top: 2em;
+    text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
 }
 .mb-3 {
     justify-content:space-evenly;
 }
-.mb-3 :hover {
-    transform: scale(1.02);
-}
-
 
 .nav-link {
     color:antiquewhite !important;
@@ -29,14 +29,25 @@
     flex: 1;
     width: 50%;
     margin-left: 2em;
-    opacity: 0.9;
+    font-size: 1em;
   }
   .icons-column {
     width: 40%;
-    margin-top: 6em;
+    margin-top: 2em;
+    align-items: center;
     opacity: 0.7;
   }
-
+  .tab-section-git {
+    margin-top: 1em;
+    text-shadow:
+    0.01em 0 black,
+    0 0.07em black,
+    -0.1em 0 black,
+    0 -0.07em black;
+  }
+  .tech-stack-icons {
+    width: 80px;
+  }
   /* Soft Skills styling */
   .soft-skills {
     margin-left: 2em;
@@ -53,145 +64,43 @@
     margin-left: 1em;
   }
 
-@media (max-width: 768px) {
+@media (min-width: 1920px) {
     .tab-container {
-        max-width: 100%;
-    }
-    .icons-column {
-        margin-top: 0em;
-        opacity: 0.7;
-      }
-    .tech-stack-icons {
-        width: 70px;
-    }
-    .tab-section {
-        font-size: 19px;
-    }
-    .skills-container {
-        padding-bottom: 2em;
-    }
-    .skills-column {
-        opacity: 1;
-        text-shadow:
-        0.07em 0 black,
-        0 0.07em black,
-        -0.07em 0 black,
-        0 -0.07em black;
-    }
-    .education-list {
-        margin-left: 0em;
-        text-shadow:
-        0.07em 0 black,
-        0 0.07em black,
-        -0.07em 0 black,
-        0 -0.07em black;
-    }
-    .soft-skills {
-        margin-left: 1em;
-    }
-    .tab-content {
-        text-shadow:
-        0.07em 0 black,
-        0 0.07em black,
-        -0.07em 0 black,
-        0 -0.07em black;
-    }
-}
-@media (max-height: 768px) {
-    .tab-container {
-        max-width: 60%;
-        padding-top: 2.5em;
-    }
-}
-
-@media (min-height: 1080px) {
-    .icons-column {
-        margin-top: 3em;
-    }
-    .soft-skills {
-        padding-top: 2em;
-    }
-    .soft-skills h4 {
-        font-size: 2em;
-    }
-    .soft-skills ul {
+        padding-top: 3em;
         font-size: 1.3em;
     }
-    .tab-content {
-        font-size: 1em;
+}
+@media (min-width: 2560px) {
+    .tab-container {
+        padding-top: 5em;
+        font-size: 1.7em;
     }
-    .soft-skills-header {
-        font-size: 2.5em;
-    }
-    .skills-container {
-        padding-top: 1em;
-    }
-    .skills-column {
-        font-size: 1.5em;
-    }
-    .education-header {
-        padding-top: 1em;
-        font-size: 2em;
+    .tab-section,
+    .tab-section-git,
+    .soft-skills h4,
+    .education-header{
+        font-size: 1.7em;
     }
     .education-header-p {
-        font-size: 1.5em;
-    }
-    .education-list {
         font-size: 1.4em;
     }
-    .tab-section {
-        font-size: 1.1em;
-    }
-    .tab-container {
-        height: fit-content;
-        padding-top: 2em;
-    }
-}
-
-@media (min-height: 1440px) {
-    .tab-section {
-        font-size: 1.5em;
-    }
-    .nav-item {
-        font-size: 1.5em;
-    }
-    .icons-column {
-        padding-top: 5em;
+    .education-list {
+        font-size: 1em;
     }
     .tech-stack-icons {
         width: 120px;
     }
-    .tab-content {
-        font-size: 1,5em;
-    }
-    .soft-skills h4 {
-        font-size: 2.5em;
-    }
-    .soft-skills ul {
-        font-size: 1.5em;
-    }
-    .education-header {
-        font-size: 2.5em;
-    }
-    .education-header-p {
-        font-size: 2em;
-    }
-    .education-list {
-        font-size: 1.5em;
-    }
 }
-@media (max-height: 768px) {
+@media (max-width: 768px) {
     .tab-container {
-        height: fit-content;
+        max-width: 100%;
+    }
+    .tech-stack-icons {
+        width: 70px;
     }
     .icons-column {
-        margin-top: 2em;
+        opacity: 1;
     }
 }
-@media (min-height: 1920px) {
-    .tab-container {
-      max-width: fit-content;
-    }
-  }
   
   

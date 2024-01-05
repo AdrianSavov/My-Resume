@@ -11,32 +11,28 @@ function MySkills() {
           <Tab eventKey="home" title="Hard Skills" className="page">
             <div className="skills-container">
               <div className="skills-column">
-                <h4 className="tab-section">Programming Languages:</h4>
+                <h4 className="tab-section">1. Programming Languages:</h4>
                 <ul>
                   <li>JavaScript</li>
                 </ul>
-                <h4 className="tab-section">Front-End Development:</h4>
+                <h4 className="tab-section">2. Front-End Development:</h4>
                 <ul>
                   <li>React</li>
                   <li>HTML5</li>
                   <li>CSS3</li>
                   <li>Bootstrap</li>
                 </ul>
-                <h4 className="tab-section">Back-End Service:</h4>
+                <h4 className="tab-section">3. Back-End Service:</h4>
                 <ul>
                   <li>Firebase</li>
                 </ul>
-                <h4 className="tab-section">Database:</h4>
+                <h4 className="tab-section">4. Database:</h4>
                 <ul>
                   <li>NoSQL /Firebase Firestore/</li>
                 </ul>
-                <h4 className="tab-section">APIs:</h4>
+                <h4 className="tab-section">5. APIs:</h4>
                 <ul>
                   <li>RESTful API</li>
-                </ul>
-                <h4 className="tab-section">Version Control:</h4>
-                <ul>
-                  <li>Git</li>
                 </ul>
               </div>
               <div className="icons-column">
@@ -51,6 +47,10 @@ function MySkills() {
                   <img src="rest.png" alt="rest" className="tech-stack-icons"/>
                   <img src="git.png" alt="git" className="tech-stack-icons" href=''/>
                 </span>
+                <h4 className="tab-section-git">6. Version Control:</h4>
+                <ul>
+                  <li>Git</li>
+                </ul>
               </div>
             </div>
           </Tab>
