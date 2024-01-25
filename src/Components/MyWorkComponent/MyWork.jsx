@@ -38,7 +38,7 @@ function MyWork() {
           <Card.Img variant="top" src="404.png" />
           <Card.Body>
             <Card.Title>Coming Soon...</Card.Title>
-            <Card.Text className="card-text-contain">As long as there is more projects, you'll see them listed here.</Card.Text>
+            <Card.Text className="card-text-contain">As soon as there is more projects, you'll see them listed here.</Card.Text>
             <div className="card-btn-container">
               <Button variant="primary">GitHub Link</Button>
               <Button variant="primary">Project Link</Button>
@@ -50,7 +50,7 @@ function MyWork() {
           <Card.Body>
             <Card.Title>Coming Soon...</Card.Title>
             <Card.Text className="card-text-contain">
-            As long as there is more projects, you'll see them listed here.
+            As soon as there is more projects, you'll see them listed here.
             </Card.Text>
             <div className="card-btn-container">
               <Button
