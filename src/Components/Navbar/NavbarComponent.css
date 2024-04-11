@@ -1,25 +1,26 @@
 .navbar {
-    justify-content: center !important;
-    width: 100%;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+.nav-link {
+    color: white !important;
+}
+.me-auto {
+    width: 25%;
+    justify-content: space-evenly;
+    margin: auto;
 }
 .me-auto :hover {
-    background-color:antiquewhite !important;
-    color: black !important;
-    border-radius: 7px;
+    text-decoration: underline rgb(230, 88, 6) solid 3px;
+    text-underline-offset: 1rem;
 }
-.navbar-brand {
-    font-family: 'Times New Roman', Times, serif;
-}
-.navbar-brand :hover {
-    background-color:antiquewhite !important;
-    color: black !important;
-}
-@media (min-width: 1920px) {
-    .navbar {
-        font-size: 1.3em;
-    }
-    .navbar-brand {
-        font-size: 1.3em !important;
+@media (max-width: 500px) {
+    .me-auto  {
+        width: 100%;
+        justify-content: center;
     }
 }
+
+
+
+
+
