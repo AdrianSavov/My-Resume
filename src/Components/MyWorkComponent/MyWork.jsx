@@ -6,7 +6,7 @@ import "./MyWork.css";
 
 function MyWork() {
   return (
-    <div className="page">
+    <div className="my-work-container">
       <div className="card-container">
         <Card>
           <Card.Img variant="top" src="logo.jpg"/>
@@ -18,6 +18,7 @@ function MyWork() {
             </Card.Text>
             <div className="card-btn-container">
               <Button
+                target="_blank"
                 variant="primary"
                 as={Link}
                 to="https://github.com/AdrianSavov/A-Mobile/tree/main/app"
@@ -25,6 +26,7 @@ function MyWork() {
                 GitHub Link
               </Button>
               <Button
+                target="_blank"
                 variant="primary"
                 as={Link}
                 to="https://project-defence.web.app/"
@@ -35,13 +37,23 @@ function MyWork() {
           </Card.Body>
         </Card>
         <Card>
-          <Card.Img variant="top" src="404.png" />
+          <Card.Img variant="top" src="logo2.png" />
           <Card.Body>
-            <Card.Title>Coming Soon...</Card.Title>
-            <Card.Text className="card-text-contain">As soon as there is more projects, you'll see them listed here.</Card.Text>
+            <Card.Title>AS-Gaming</Card.Title>
+            <Card.Text className="card-text-contain">AS-Gaming is a web application for high end gaming setups and accessories store.</Card.Text>
             <div className="card-btn-container">
-              <Button variant="primary">GitHub Link</Button>
-              <Button variant="primary">Project Link</Button>
+              <Button variant="primary"
+              target="_blank"
+              as={Link}
+              to="https://github.com/AdrianSavov/PC.com">
+              GitHub Link
+                </Button>
+              <Button variant="primary"
+              target="_blank"
+              as={Link}
+              to="https://as-gaming-a7063.web.app/">
+                Project Link
+                </Button>
             </div>
           </Card.Body>
         </Card>
@@ -54,6 +66,7 @@ function MyWork() {
             </Card.Text>
             <div className="card-btn-container">
               <Button
+                target="_blank"
                 variant="primary"
                 as={Link}
                 to="https://github.com/AdrianSavov/A-Mobile/tree/main/app"
