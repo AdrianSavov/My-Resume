@@ -1,17 +1,20 @@
-import Card from "react-bootstrap/Card";
 import "./footer.css";
+import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <div className="footer-container">
-      <Card.Body className="footer-card-body">
-        <Card.Title>Contacts:</Card.Title>
-        <div className="contacts">
-          <span>&#9742; Phone: +359 885 058 231</span>
-          <p>&#x1F4E7; adrian.savov@yahoo.com</p>
+      <Navbar bg="dark" data-bs-theme="dark">
+        <div className="icons">
+          <span>
+          <Link target="_blank" className="fa fa-linkedin" as={Link} to='https://www.linkedin.com/in/adrian-savov/'></Link>
+          </span>
+          <span>
+          <Link target="_blank" className="fa fa-github" as={Link} to='https://github.com/AdrianSavov'></Link>
+          </span>
         </div>
-        <Card.Text>All Rights Reserved &copy;</Card.Text>
-      </Card.Body>
+      </Navbar>
     </div>
   );
 }
