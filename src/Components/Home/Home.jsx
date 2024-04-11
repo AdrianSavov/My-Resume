@@ -1,32 +1,33 @@
 import "./Home.css";
 import "../../PageTransition.css";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="page">
     <div className="main-container">
-      <h1 className="header">I am Adrian Savov!</h1>
-          <div className="row-content">
-            <div className="summary-text">
-              <h2 className="summary">About Me</h2>
-              <br/>
-              <p className="text">
-              Enthusiastic and detail-oriented Junior Front-End Developer with a
-              solid foundation in web development and a passion for creating
-              engaging user experiences. Proficient in key technologies
-              including JavaScript, React, HTML5, CSS and Bootstrap. 
-              Well-versed in front-end development best practices and committed
-              to staying updated with the latest industry trends. Excited to
-              contribute to collaborative projects, leverage problem-solving
-              skills, and continue to grow within a dynamic development
-              environment.
-            </p>
-            </div>
-            <div className="my-picture">
-              <img className='img' src="sav.png"></img>
-            </div>
+      <div className="header-and-img">
+        <div className="headers-and-buttons">
+          <h1 className="header">Hi,</h1>
+          <h2 className="header-two">I'm Adrian</h2>
+          <h2 className="header-three">React.js Developer</h2>
+          <div className="buttons">
+            <Link as={Link} to="my-work">
+              <button className="button">Portfolio</button>
+            </Link>
+            <Link as={Link} to="my-skills">
+              <button className="button">Skills</button>
+            </Link>
+            <Link
+              target="_blank"
+              as={Link}
+              to="https://drive.google.com/file/d/1Zpqtk6BtkzLqzhENLvFjXFZ8DEjDhQlT/view?usp=sharing"
+            >
+              <button className="button">Link to CV</button>
+            </Link>
           </div>
         </div>
+        <img className="img" src="web-dev.png"></img>
+      </div>
     </div>
   );
 }
