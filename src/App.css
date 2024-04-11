@@ -1,11 +1,9 @@
 .main {
   background-size: cover;
-  background-position: center;
-  color: antiquewhite;
   max-width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  box-sizing: border-box;
+  margin: 0 auto;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

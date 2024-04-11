@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const backgroundImage = {
-    backgroundImage: 'url("background.jpg")'
+    backgroundImage: 'url("wallpaper.png")'
   }
   return (
     <div className='main' style={backgroundImage}>
