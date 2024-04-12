@@ -51,7 +51,7 @@ function MySkills() {
         <div className="soft-skills">
           <h1 className="headers">Soft Skills:</h1>
           <ul>
-            <li> Exellent communication skills</li>
+            <li> Excellent communication skills</li>
             <li> Team Player</li>
             <li> Problem Solving</li>
             <li> Time Management</li>
