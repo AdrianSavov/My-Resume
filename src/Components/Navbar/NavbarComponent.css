@@ -19,7 +19,11 @@
         justify-content: center;
     }
 }
-
+@media (max-width: 1366px) and (min-width: 501px) {
+    .me-auto {
+        width: 50%;
+    }
+}
 
 
 
