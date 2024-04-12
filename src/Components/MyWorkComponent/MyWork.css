@@ -37,6 +37,8 @@
 .btn-primary {
   border: none !important;
   background-color: rgb(230, 88, 6) !important; 
+  font-size: 1em !important;
+  width: 7em !important;
 }
 .card-btn-container {
     display: flex;
