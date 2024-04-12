@@ -12,17 +12,17 @@ function Home() {
           <h2 className="header-three">React.js Developer</h2>
           <div className="buttons">
             <Link as={Link} to="my-work">
-              <button className="button">Portfolio</button>
+            <button type="button" className="btn btn-warning">Portfolio</button>
             </Link>
             <Link as={Link} to="my-skills">
-              <button className="button">Skills</button>
+            <button type="button" className="btn btn-warning">Skills</button>
             </Link>
             <Link
               target="_blank"
               as={Link}
               to="https://drive.google.com/file/d/1Zpqtk6BtkzLqzhENLvFjXFZ8DEjDhQlT/view?usp=sharing"
             >
-              <button className="button">Link to CV</button>
+              <button type="button" className="btn btn-warning">CV Link</button>
             </Link>
           </div>
         </div>
